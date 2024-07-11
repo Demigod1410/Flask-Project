@@ -12,7 +12,7 @@ def BreastCancer():
 
 @app.route('/Covid')
 def Covid19():
-    return render_template('pricing.html')
+    return render_template('Covid19.html')
 
 
 if __name__ == '__main__':
